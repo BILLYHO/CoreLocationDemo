@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.title = @"CoreLocation Demo";
     
     _label = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, 320, 100)];
     _label.text = @"Locating...";
